@@ -1,0 +1,43 @@
+{
+  "name": "beginning-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "author": "Andrew Allison<andrew.allison@xdesign.com>",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install",
+    "prisma:studio": "prisma studio"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "vitest": "^0.34.5",
+    "vitest-mock-extended": "^1.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@faker-js/faker": "^8.1.0",
+    "@types/node": "^20.7.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3",
+    "prisma": "^5.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
